@@ -1,0 +1,27 @@
+languageCode = "en"
+title = "Steven Shaw"
+baseURL = "http://steshaw.org/"
+theme = "beautifulhugo"
+
+disqusShortname = "steshaw"
+googleAnalytics = "UA-62781857-1"
+
+[author]
+  github = "steshaw"
+  twitter = "steshaw"
+  linkedin = "steshaw"
+  stackoverflow = "users/482382/steven-shaw"
+
+[permalinks]
+  post = "posts/:year/:month/:day/:title"
+
+[params]
+  subtitle = "Loves programming languages"
+  logo = "img/pltsrc.png"
+  favicon = "img/pltsrc.png"
+  commit = false
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
